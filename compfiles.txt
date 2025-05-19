@@ -1,2 +1,4 @@
+./miPrincipal/EscribirArchivo.java
 ./miPrincipal/Principal.java
+./miPrincipal/LeerArchivo.java
 ./miTest/AppTest.java

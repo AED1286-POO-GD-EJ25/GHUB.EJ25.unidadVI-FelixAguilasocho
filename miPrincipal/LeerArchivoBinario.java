@@ -1,3 +1,4 @@
+package miPrincipal;
 import java.io.FileInputStream;
 import java.io.IOException;
 public class LeerArchivoBinario {

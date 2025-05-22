@@ -17,6 +17,12 @@ public class Estudiante implements Serializable {
         this.correoElectronico = correoElectronico;
         this.contrasena = contrasena;
     }
+    
+    public Estudiante(int id, String nombre, int edad) {
+        this.id = id;
+        this.nombre = nombre;
+        this.edad = edad;
+    }
 // Getters y setters
     public int getId() {
         return id;
@@ -57,5 +63,12 @@ public class Estudiante implements Serializable {
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
+
+    @Override
+    public String toString() {
+        return id + "," + nombre + "," + edad;
+    }
+
+
 }
     // Getters y setters

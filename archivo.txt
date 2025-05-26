@@ -1,2 +1,2 @@
 Hola, mundo!
-Este es un archivo de texto.
+Este es un ejemplo de escritura.
